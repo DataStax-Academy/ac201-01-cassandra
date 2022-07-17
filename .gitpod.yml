@@ -3,7 +3,7 @@ tasks:
     init: ""
     command: ""
 ports:
-  - port: 9042
+  - port: 9042, 7000
     onOpen: ignore
 github:
   prebuilds:
