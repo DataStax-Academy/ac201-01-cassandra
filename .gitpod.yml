@@ -1,0 +1,13 @@
+tasks:
+  - name: install-dependencies
+    init: 
+    command: 
+ports:
+  - port: 9042
+    onOpen: ignore
+github:
+  prebuilds:
+    main: true
+vscode:
+  extensions:
+    - https://github.com/HadesArchitect/katapod/releases/download/0.3.6/katapod-0.3.6.vsix
