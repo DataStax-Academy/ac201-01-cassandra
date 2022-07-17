@@ -1,7 +1,7 @@
 tasks:
   - name: install-dependencies
-    init: 
-    command: 
+    init: ""
+    command: ""
 ports:
   - port: 9042
     onOpen: ignore
