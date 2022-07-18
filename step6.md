@@ -12,7 +12,7 @@ wget https://archive.apache.org/dist/cassandra/4.0.5/apache-cassandra-4.0.5-bin.
 
 tar -xzf apache-cassandra-4.0.5-bin.tar.gz
 
-export PATH="$PATH:/workspace/cassandra/cassandra-4.0.5/bin:/workspace/cassandra/cassandra-4.0.5/tools/bin"
+export PATH="$PATH:/workspace/cassandra/apache-cassandra-4.0.5/bin:/workspace/cassandra/apache-cassandra-4.0.5/tools/bin"
 ```
 
 [continue](command:katapod.loadPage?step7){.orange_bar}
