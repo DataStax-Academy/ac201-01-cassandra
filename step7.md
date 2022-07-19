@@ -9,10 +9,9 @@ Start Cassandra:
 cassandra
 ```
 
-Wait for message `Node localhost/127.0.0.1:7000 state jump to NORMAL` and 
+Observe the log output while Cassandra is starting. 
 
-<kbd>enter</kbd>
-
+Wait for message `Node localhost/127.0.0.1:7000 state jump to NORMAL` and hit <kbd>enter</kbd> or <kbd>return</kbd> in the terminal.
 
 Check the status of Cassandra:
 ```
