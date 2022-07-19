@@ -4,17 +4,18 @@
 ### [◂](command:katapod.loadPage?step6){.steps} Step 7 of 8 [▸](command:katapod.loadPage?step8){.steps}
 </div>
 
-Find a status history for order `111-0461064-1669732`; sort by status timestamp (desc):
-
-<details>
-  <summary>Solution</summary>
-
+Start Cassandra:
 ```
-SELECT * 
-FROM order_status_history_by_id
-WHERE order_id = '111-0461064-1669732'; 
+cassandra
 ```
 
-</details>
+Wait until 
+
+Check the status of Cassandra:
+```
+nodetool status
+```
+
+The status/state column in the output should report `UN`, which stands for Up/Normal.
 
 [continue](command:katapod.loadPage?step8){.orange_bar}
