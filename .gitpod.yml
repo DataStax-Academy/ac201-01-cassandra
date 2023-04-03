@@ -1,3 +1,4 @@
+image: gitpod/workspace-full:2023-02-27-14-39-56
 tasks:
   - name: install-dependencies
     init: ""
@@ -14,4 +15,4 @@ github:
     main: true
 vscode:
   extensions:
-    - https://github.com/HadesArchitect/katapod/releases/download/0.3.6/katapod-0.3.6.vsix
+    - https://github.com/DataStax-Academy/katapod/releases/download/stable/katapod-stable.vsix
